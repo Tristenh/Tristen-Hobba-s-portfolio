@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    background-color: aliceblue;
 }
 /* nav */
 nav{
@@ -61,4 +62,36 @@ nav a {
 h2{
     background-color: #96dfe2;
     padding-right: 2rem;
+}
+/* article */
+article img{
+    border: 4px solid #96dfe2;
+    height: 15rem;
+    width: 22rem;
+    filter: brightness(75%);
+    transition: 200ms;
+    z-index: -1;
+    object-fit: cover;
+}
+.main{
+    height: 30rem;
+    width: 22rem;
+}
+
+article img:hover{
+    filter: none;
+}
+.box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .heading{
+    position: absolute;
+    background-color: #96dfe2;
+    z-index: 999;
+    bottom: 0;
+    margin-bottom: 2rem;
+    line-height: 0;
 }
