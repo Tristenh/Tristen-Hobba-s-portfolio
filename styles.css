@@ -56,12 +56,14 @@ nav a {
     display: flex;
     justify-content: flex-end;
     position: absolute;
-    margin-left: 75%;
+    background-color: #96dfe2;
+    margin-left: 65%;
     margin-top: 6rem;
 }
-h2{
-    background-color: #96dfe2;
+h2, h4{
+    color: rgb(59, 59, 135);
     padding-right: 2rem;
+    font-size: 1.5rem;
 }
 /* about */
 .about{
