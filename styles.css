@@ -37,3 +37,28 @@ nav a {
     color: #96dfe2;
     text-decoration: none;
 }
+/* hero */
+.hero{
+    background-color: rgb(180, 180, 182);
+    display: flex;
+    align-items: center;
+    height: 12rem;
+    position: relative;
+}
+.hero img{
+    width: 200px;
+    border-radius: 5px;
+    height: 10rem;
+    object-fit: cover;
+}
+.subtitle{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    margin-left: 75%;
+    margin-top: 6rem;
+}
+h2{
+    background-color: #96dfe2;
+    padding-right: 2rem;
+}
