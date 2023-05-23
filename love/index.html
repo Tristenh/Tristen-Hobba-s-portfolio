@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>The Love Calculator</h1>
+    <p>Welcome to this great invention of Doctor Love!</p>
+    <p>Please enter two names to be analyzed</p>
+
+    <form class="form-fill" onsubmit=" event.preventDefault(); loveCalculator()";>
+        <div class="form-control">
+          <label for="">Name of person 1</label>
+          <input 
+          class="form-control"
+          type="text"  autocomplete="none"
+          required minlength="3" maxlength="20"
+          placeholder="Enter your name"
+          name=""
+          id="name1" >
+        </input>
+        </div>
+        <div class="form-control">
+          <label for="">Name of person 2</label>
+          <input 
+          class="form-control"
+          type="text"  autocomplete="none"
+          required minlength="3" maxlength="20"
+          placeholder="Enter your name"
+          name=""
+          id="name2" >
+        </input>
+        </div>
+        <button class="btn" type="submit">calculate</button>
+    </form>
+
+    <div class="output">
+      <p id="input"></p>
+      <p id="loveScore"></p>
+      <p id="score"></p>
+    </div>
+</html>

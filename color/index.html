@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <form
+      class="form-fill"
+      onsubmit="event.preventDefault(); greet()"
+      action=""
+    >
+      <input
+        class="form-control"
+        autocomplete="none"
+        required
+        maxlength="20"
+        minlength="3"
+        placeholder="Enter first name"
+        id="nameInput"
+        type="text"
+      />
+      <input
+        class="form-control"
+        autocomplete="none"
+        required
+        maxlength="20"
+        minlength="3"
+        placeholder="Enter last name"
+        id="lastNameInput"
+        type="text"
+      />
+      <button class="btn" type="submit">submit</button>
+    </form>
+  </body>
+  <script src="./index.js"></script>
+</html>

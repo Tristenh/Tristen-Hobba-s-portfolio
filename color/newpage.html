@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="return">
+      <p id="returnName"></p>
+      <p id="returnLastName"></p>
+    </div>
+    <div class="box-container">
+      <p>Select your favourite color</p>
+      <form onsubmit="event.preventDefault(); color()" action="">
+        <input placeholder="Select color" id="colorInput" type="color" />
+        <button id="btn" type="submit">submit</button>
+        <button id="btnRandom" type="submit">Random</button>
+      </form>
+      <p>you favourite color is</p>
+      <div class="box" id="returnColor"></div>
+      <p id="returnColorValue"></p>
+
+      <div class="box2" id="returnColor2"></div>
+      <p id="returnColorValue2"></p>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>

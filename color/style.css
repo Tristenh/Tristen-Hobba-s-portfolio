@@ -1,0 +1,41 @@
+
+.form-fill {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+.form-control {
+width: 20rem;
+height: 2rem;
+border-radius: 20px;
+border: 1px solid #222;
+padding-left: 1rem;
+margin-top: 1rem;
+}
+.btn {
+margin-top: 1rem;
+width: 10rem;
+height: 2rem;
+border-radius: 20px;
+border: 1px solid #222;
+}
+.return {
+    text-align: center;
+}
+.box-container{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.box {
+    width: 10rem;
+    height: 10rem;
+}
+.box2 {
+    width: 10rem;
+    height: 10rem;
+}
