@@ -72,7 +72,7 @@ h2{
 article img{
     border: 4px solid #96dfe2;
     height: 15rem;
-    width: 90vw;
+    width: 22rem;
     filter: brightness(75%);
     transition: 200ms;
     z-index: -1;
@@ -80,7 +80,7 @@ article img{
 }
 .main{
     height: 30rem;
-    width: 90vw;
+    width: 22rem;
 }
 
 article img:hover{
@@ -88,9 +88,6 @@ article img:hover{
 }
 .box{
     position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
  .heading{
     position: absolute;
@@ -99,4 +96,79 @@ article img:hover{
     bottom: 0;
     margin-bottom: 2rem;
     line-height: 0;
+}
+@media screen and (min-width:768px){
+    .aboutMe{
+        grid-row: span 1;
+        border-right: 2px solid rgb(59, 59, 135);
+        text-align: right;
+        padding-right: 1rem;
+    }
+    .about{
+        background-color: rgb(238, 238, 251);
+        flex-wrap: wrap;
+        margin: 0 auto;
+        text-align: left;
+        font-size: 25px;
+        grid-column: span 2;
+            margin-left: 1rem;
+            width: 100%;
+    }
+    .grid-control {
+        display: grid;
+        grid-template-columns: 8rem 1fr 1fr ;
+        gap: 20px;
+        padding: 1rem;
+    }    
+    .box-1, .box-1 img {
+        grid-column: span 2;
+        width: 100%;
+    }
+    article img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .work{
+        grid-row: span 3;
+        grid-column: span 1;
+        border-right: 2px solid rgb(59, 59, 135);
+        text-align: right;
+        padding-right: 1rem;
+    }
+    .contact{
+        border-right: 2px solid rgb(59, 59, 135);
+        text-align: right;
+        padding-right: 1rem;
+
+    }
+    footer ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 2rem;
+      }
+      
+      footer a {
+        color: rgb(59, 59, 135);
+        border-bottom: 2px solid rgb(59, 59, 135);
+        text-align: justify;
+        flex-grow: 1;
+        margin: 0 10px;
+      }
+}
+@media screen and (max-width:768px){
+    .box{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    article img{
+    
+        width: 100vw;
+    
+    }
+    .main{
+        width: 100vw;
+    }
 }
