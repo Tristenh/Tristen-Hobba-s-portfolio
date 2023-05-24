@@ -10,5 +10,7 @@ This portfolio showcases my greatest coding achievements to date and provides a 
 * Mobile freindly design and desktop design.
 
 ### deployed portfolio
+https://tristenh.github.io/Tristen-Hobba-s-portfolio/
+
 Tristen-Hobba-s-portfolio![Screenshot (38)](https://github.com/Tristenh/Tristen-Hobba-s-portfolio/assets/121472192/7bbd2f4e-a99e-4f0d-9308-e05021521fc0)
 ![Screenshot (39)](https://github.com/Tristenh/Tristen-Hobba-s-portfolio/assets/121472192/fe19fa36-48d3-4c7e-b0dc-d4c5584318e5)
