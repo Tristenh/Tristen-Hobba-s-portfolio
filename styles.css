@@ -139,14 +139,15 @@ footer a {
     .section-h2{
         grid-row: span 1;
         border-right: 4px solid var(--color-secondary);
-        padding-right: 1rem;
+        margin-right: 1rem;
         font-size: 3rem;
         text-align: right;
     }
  /* grid */
     .grid-control {
         display: grid;
-        grid-template-columns: 14rem 1fr 1fr ;
+        grid-template-columns: 12rem 1fr 1fr;
+        margin-right: 3rem;
         gap: 20px;
         padding: 1rem;
     }    
@@ -168,6 +169,6 @@ footer a {
         display: flex;
         justify-content: space-between;
          margin-top: -10rem;
-        padding-left: 25rem;
+        padding-left: 20rem;
     }
 }
