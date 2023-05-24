@@ -28,7 +28,6 @@ nav{
 nav li {
     border-bottom: 2px solid var(--color-primary) ;
     display: flex; 
-    align-items: end ;
     font-size: 30px;
 }
 ul{
@@ -113,36 +112,33 @@ article img{
     margin-bottom: 2rem;
     line-height: 0;
 }
+/* footer */
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 footer ul {
-    justify-content: space-evenly;
     list-style: none;
-  }
+    display: flex;
+    justify-content: space-between;
+    margin-left: -2rem;
+}
 footer a {
     color: rgb(59, 59, 135);
     border-bottom: 2px solid var(--color-secondary);
-  }
+    font-size: 2rem;
+}
 /* media queries large screen */
 @media screen and (min-width:768px){
 /* nav */
     nav{
-        background-color: var(--color-secondary);
         display: flex;
-        gap: 0.5rem;
-        justify-content: center;
-        height: 4rem;
         justify-content: space-between;
-    }
-    ul{
-        gap: 2rem;
-        margin-right: 6rem; 
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        font-size: 30px;
     }
 /* hero */
     .subtitle{
-        margin-left: 50%;
+        margin-left: 65%;
     }
     .hero{
         margin-top: 0;
@@ -151,7 +147,6 @@ footer a {
     .section-h2{
         grid-row: span 1;
         border-right: 2px solid var(--color-secondary);
-        text-align: right;
         padding-right: 1rem;
     }
  /* grid */
@@ -172,5 +167,10 @@ footer a {
     }
     .work{
         grid-row: span 3;
+
+    }
+    footer ul{
+        width: 80%;
+        margin-left: 0;
     }
 }
