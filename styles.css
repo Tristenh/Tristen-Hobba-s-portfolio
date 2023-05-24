@@ -141,14 +141,14 @@ footer a {
         font-size: 30px;
     }
 /* hero */
-      .subtitle{
+    .subtitle{
         margin-left: 50%;
     }
     .hero{
         margin-top: 0;
     }
 /* about */
-    .aboutMe{
+    .section-h2{
         grid-row: span 1;
         border-right: 2px solid var(--color-secondary);
         text-align: right;
@@ -172,15 +172,5 @@ footer a {
     }
     .work{
         grid-row: span 3;
-        grid-column: span 1;
-        border-right: 2px solid var(--color-secondary);
-        text-align: right;
-        padding-right: 1rem;
     }
-/* footer */
-    .contact{
-        border-right: 2px solid var(--color-secondary);
-        text-align: right;
-        padding-right: 1rem;
-   }
 }
