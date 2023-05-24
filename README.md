@@ -1,7 +1,6 @@
 
 ##Tristen Hobba's Professional Portfolio
-# This professional portfolio represents all of my greatest coding achievements to date.
-with links to my socials to get in touch with me
+Welcome to Tristen Hobba's Professional Portfolio! This portfolio showcases my greatest coding achievements to date and provides a glimpse into my skills and expertise. With a user-friendly design, you can easily navigate through the sections to learn more about me, explore my work, and find ways to get in touch with me.
 
 #features
 * This portfolio displays my name, a recent photo, and links to sections, about me, my work, and how to contact me.
