@@ -17,6 +17,9 @@ h2, h4{
     padding-right: 2rem;
     font-size: 1.5rem;
 }
+a{
+    text-decoration: none;
+}
 /* nav */
 nav{
     background-color: var(--color-secondary);
@@ -35,6 +38,9 @@ ul{
     flex-direction: row;
     font-size: 16px;
 }
+nav a {
+    color: var(--color-primary);
+}
 .title{
     background-color:var(--color-primary);
     height: 3rem;
@@ -43,10 +49,6 @@ ul{
     align-self: center;
     width: 10rem;
 }
-nav a {
-    color: var(--color-primary);
-    text-decoration: none;
-}
 /* hero */
 .hero{
     background-color: rgb(180, 180, 182);
@@ -54,6 +56,7 @@ nav a {
     align-items: center;
     height: 12rem;
     position: relative;
+    margin-top: -1rem;
 }
 .hero img{
     width: 200px;
@@ -71,8 +74,13 @@ nav a {
 }
 /* about */
 .about{
+    flex-wrap: wrap;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 25px;
+    grid-column: span 2;
     margin-left: 1rem;
-    width: 80vh;
+    width: 95%;
 }
 /* article */
 article img{
@@ -86,10 +94,13 @@ article img{
 }
 .main{
     height: 30rem;
-    width: 22rem;
+    width: 100vw;
 }
 article img:hover{
     filter: none;
+}
+article img{
+    width: 100vw;
 }
 .box{
     position: relative;
@@ -103,17 +114,12 @@ article img:hover{
     line-height: 0;
 }
 footer ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 2rem;
+    justify-content: space-evenly;
+    list-style: none;
   }
-  footer a {
+footer a {
     color: rgb(59, 59, 135);
     border-bottom: 2px solid var(--color-secondary);
-    text-align: justify;
-    flex-grow: 1;
-    margin: 0 10px;
   }
 /* media queries large screen */
 @media screen and (min-width:768px){
@@ -138,21 +144,15 @@ footer ul {
       .subtitle{
         margin-left: 50%;
     }
+    .hero{
+        margin-top: 0;
+    }
 /* about */
     .aboutMe{
         grid-row: span 1;
         border-right: 2px solid var(--color-secondary);
         text-align: right;
         padding-right: 1rem;
-    }
-    .about{
-        flex-wrap: wrap;
-        margin: 0 auto;
-        text-align: left;
-        font-size: 25px;
-        grid-column: span 2;
-            margin-left: 1rem;
-            width: 100%;
     }
  /* grid */
     .grid-control {
@@ -183,19 +183,4 @@ footer ul {
         text-align: right;
         padding-right: 1rem;
    }
-}
-/* media queries small screen */
-@media screen and (max-width:768px){
-    .box{
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    article img{
-        width: 100vw;
-    }
-    .main{
-        width: 100vw;
-    }
 }
