@@ -159,7 +159,8 @@ footer a {
  /* article */
     article img{
         width: 100%;
-        object-fit: cover;
+        box-sizing: border-box;
+        object-fit: fill;
     }
     .work{
         grid-row: span 3;
