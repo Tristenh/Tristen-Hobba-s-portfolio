@@ -8,7 +8,7 @@
   url = https://github.com/Tristenh/5-day-weather-forecast
   
   
-# [submodule "work-day-scheduler"]
-#   path = work-day-scheduler
-#   url = https://github.com/Tristenh/work-day-scheduler
+[submodule "work-day-scheduler"]
+  path = work-day-scheduler
+  url = https://github.com/Tristenh/work-day-scheduler
   
