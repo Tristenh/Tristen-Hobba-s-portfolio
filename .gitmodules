@@ -1,0 +1,3 @@
+[submodule "Travel-Explorer"]
+  path = ./Travel-Explorer
+  url = https://github.com/Tristenh/Travel-Explorer
