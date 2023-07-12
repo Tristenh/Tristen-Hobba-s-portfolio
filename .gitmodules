@@ -1,3 +1,9 @@
 [submodule "Travel-Explorer"]
   path = Travel-Explorer
   url = https://github.com/Tristenh/Travel-Explorer
+
+  
+[submodule "5-day-weather-forecast"]
+  path = 5-day-weather-forecast
+  url = https://github.com/Tristenh/5-day-weather-forecast
+  
