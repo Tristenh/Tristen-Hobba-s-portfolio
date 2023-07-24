@@ -12,3 +12,11 @@
   path = work-day-scheduler
   url = https://github.com/Tristenh/work-day-scheduler
   
+[submodule "Tristens-Coding-Quiz"]
+  path = Tristens-Coding-Quiz
+  url = https://github.com/Tristenh/Tristens-Coding-Quiz
+  
+[submodule "rock-paper-scissors"]
+  path = rock-paper-scissors
+  url = https://github.com/Tristenh/rock-paper-scissors
+  
