@@ -58,10 +58,9 @@ nav a {
     margin-top: -1rem;
 }
 .hero img{
-    width: 200px;
     border-radius: 5px;
     height: 12rem;
-    object-fit: cover;
+    object-fit: fill;
 }
 .subtitle{
     display: flex;
