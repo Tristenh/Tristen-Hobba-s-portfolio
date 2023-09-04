@@ -21,6 +21,6 @@
   url = https://github.com/Tristenh/rock-paper-scissors
   
 [submodule "your-recipe-book"]
-  path = your-recipe-book
-  url = https://github.com/tkdgns0630/your-recipe-book
+	path = your-recipe-book
+	url = https://github.com/tkdgns0630/your-recipe-book
   
